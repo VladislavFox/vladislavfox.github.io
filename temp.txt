@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vladislav Fox</title>
+<style>
+a { 
+    text-decoration: none; /* Ioiaiyai iia?a?eeaaiea o nnueee */
+   } 
+ BODY {
+    background: #ffffff; /* Oaao oiia aaa-no?aieou */
+   } 
+   A {
+    color: #5677fc; /* Oaao nnueie */
+   }
+   A:visited {
+    color: #5677fc; /* Oaao iinauaiiuo nnueie */
+   }
+   A:active {
+    color: #5677fc; /* Oaao aeoeaiuo nnueie */
+   }
+p{
+   color: #ff9800;
+}
+p span{
+   color: #5677fc;
+}
+  </style>
+<meta http-equiv="content-type" content="text/php; charset=Windows-1251"/> 
+<center><link rel="stylesheet" href="style.css" type="text/css" /></center>
+</head>
+<body>
+	<center>
+<a class="gif" href="#nogo"><img src="vladislavfox.gif" align="center"></a>
+	</center>
+<center>
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<font size="5" face="Arial">
+	<h1 style="color:#ff9800">Contact Info:</h1>
+	<p><b>E-Mail:</b> <span>vladislavfox@outlook.com</span></p>
+	<p style="color:#ff9800"><b>Twitter:</b> <a href="twitter.com/vladislavfox">twitter.com/vladislavfox</a></p>
+	<p style="color:#ff9800"><b>Google+:</b> <a href="google.com/+vladislavfox">google.com/+vladislavfox</a></p>
+</font>
+</center>
+</body>
+</html>

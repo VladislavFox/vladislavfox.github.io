@@ -1,0 +1,15 @@
+.gif {
+    display:block; 
+    width:100px; 
+    height:100px; 
+    background:url(stat.gif) no-repeat;
+}
+a.gif img {
+    visibility:visible;
+}
+a.gif:hover {
+    background:none;
+}
+a.gif:hover img {
+    visibility:visible; 
+    border:0;
