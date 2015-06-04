@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <title>Vladislav Fox</title>
 <style>
 a { 
-    text-decoration: none; /* Îòìåíÿåì ïîä÷åðêèâàíèå ó ññûëêè */
+    text-decoration: none; /* ќтмен¤ем подчеркивание у ссылки */
    } 
  BODY {
-    background: #ffffff; /* Öâåò ôîíà âåá-ñòðàíèöû */
+    background: url(background1.jpg) fixed; /* ÷вет фона веб-страницы */
+    color: #C0C0C0;
    } 
    A {
-    color: #5677fc; /* Öâåò ññûëîê */
+    color: #5677fc; /* ÷вет ссылок */
    }
    A:visited {
-    color: #5677fc; /* Öâåò ïîñåùåííûõ ññûëîê */
+    color: #5677fc; /* ÷вет посещенных ссылок */
    }
    A:active {
-    color: #5677fc; /* Öâåò àêòèâíûõ ññûëîê */
+    color: #5677fc; /* ÷вет активных ссылок */
    }
 p{
    color: #ff9800;
@@ -24,27 +26,41 @@ p{
 p span{
    color: #5677fc;
 }
+  @font-face {
+    font-family: Roboto; /* »м¤ шрифта */
+    src: url(fonts/robotolight.ttf); /* ѕуть к файлу со шрифтом */
+   }
+   P {
+    font-family: Roboto;
+   }
+#copyright {
+position: absolute;
+bottom: 1em;
+left: 1em;
+text-align: left;
+}
   </style>
 <meta http-equiv="content-type" content="text/php; charset=Windows-1251"/> 
 <center><link rel="stylesheet" href="style.css" type="text/css" /></center>
 </head>
 <body>
-<a class="gif" href="#nogo"><img src="vladislavfox.gif" alt="" /></a>
+<tr>
+<table border="0" cellpadding="1" cellspacing="1" height="170" width="100%" bgcolor="white" style="filter:alpha(opacity=0); opacity:1">
+<td><center><img src="vladislavfox.gif" width="1264"></center>
 <center>
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<br /> 
-<font size="5" face="Arial">
-	<h1 style="color:#ff9800">Contact Info:</h1>
-	<p><b>E-Mail:</b> <span>vladislavfox@outlook.com</span></p>
-	<p style="color:#ff9800"><b>Twitter:</b> <a href="twitter.com/vladislavfox">twitter.com/vladislavfox</a></p>
-	<p style="color:#ff9800"><b>Google+:</b> <a href="google.com/+vladislavfox">google.com/+vladislavfox</a></p>
+<font size="6" face="Roboto">
+	<p style="color:#ff9800">CONTACT INFORMATION:</p>
 </font>
-</center>
+<font size="6" face="Roboto">
+	<p>E-Mail: <span>vladislavfox@outlook.com</span></p>
+	<p style="color:#ff9800">Twitter: <a href="https://goo.gl/58wJo9">twitter.com/vladislavfox</a></p>
+	<p style="color:#ff9800">Google+: <a href="https://goo.gl/mJM5vj">google.com/+vladislavfox</a></p>
+</font>
+</td>
+</tr>
+</table>
+<font size="3" face="Roboto">
+<div id="copyright">© Vladislav Fox 2014. All rights reserved.</div>
+</font>
 </body>
 </html>
